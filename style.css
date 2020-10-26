@@ -1,0 +1,97 @@
+body {
+    background: green;
+}
+
+.card {
+    background: white;
+    width: 140px;
+    height: 200px;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 7px;
+    
+}
+
+.card .spades::before{
+    content: '\2660	';
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.numero {
+    display: block;
+    padding-top: 5px;
+}
+
+.card .spades::after {
+    content: '\2660	';
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-align: right;
+    padding-top: 10px;
+    margin-left: -5px;
+}
+
+.card .clubs::before{
+    content: '\2663	';
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 5px;
+}
+.card .clubs::after {
+    content: '\2663	';
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-align: right;
+    padding-top: 10px;
+    margin-left: -5px;
+}
+
+.card .hearts::before{
+    content: '\2665	';
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 5px;
+    color: red;
+}
+.card .hearts::after {
+    content: '\2665	';
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-align: right;
+    padding-top: 10px;
+    margin-left: -5px;
+    color: red;
+
+}
+
+.card .diamonds::before{
+    content: '\2666	';
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 5px;
+    color: red;
+}
+.card .diamonds::after {
+    content: '\2666	';
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-align: right;
+    padding-top: 10px;
+    margin-left: -5px;
+    color: red;
+}
